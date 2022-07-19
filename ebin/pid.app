@@ -1,0 +1,10 @@
+{application,pid,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{pid_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[pid,pid_app,pid_single,pid_sup,pwm,solis_device]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
